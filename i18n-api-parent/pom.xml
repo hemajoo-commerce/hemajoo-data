@@ -158,7 +158,7 @@
         <version.maven.plugin.flyway>8.5.2</version.maven.plugin.flyway>
 
         <version.plugin.maven.docker>0.37.0</version.plugin.maven.docker>
-        <version.plugin.maven.sonarscource.scanner>3.9.1.2184</version.plugin.maven.sonarscource.scanner>
+        <version.plugin.maven.sonarscource.scanner>3.10.0.2594</version.plugin.maven.sonarscource.scanner>
         <version.plugin.maven.jacoco>0.8.10</version.plugin.maven.jacoco>
 
         <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
