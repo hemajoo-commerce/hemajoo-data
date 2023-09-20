@@ -1,2 +1,2 @@
-# hemajoo-commerce-i18n-api
-Provides sets of localized REST APIs on several domains.
+# Hemajoo Commerce - Data Country
+Provides localized data on countries on several domains through Java APIs and REST APIs.
