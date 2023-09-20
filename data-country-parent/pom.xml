@@ -562,9 +562,16 @@
                 <version>${version.google.guava}</version>
             </dependency>
 
+            <!-- Hemajoo dependencies -->
             <dependency>
                 <groupId>com.hemajoo</groupId>
                 <artifactId>hemajoo-foundation-commons</artifactId>
+                <version>${version.hemajoo.foundation}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.hemajoo</groupId>
+                <artifactId>hemajoo-foundation-data</artifactId>
                 <version>${version.hemajoo.foundation}</version>
             </dependency>
 

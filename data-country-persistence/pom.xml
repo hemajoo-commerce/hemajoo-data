@@ -13,7 +13,8 @@
     </parent>
 
     <artifactId>data-country-persistence</artifactId>
-    <name>${artifactId}</name>
+    <packaging>jar</packaging>
+    <name>${project.artifactId}</name>
     <description>Provides persistence for the countries.</description>
 
     <properties>
@@ -57,15 +58,8 @@
         </dependency>
 
         <dependency>
-            <groupId>com.hemajoo.commerce</groupId>
-            <artifactId>data-country-commons</artifactId>
-            <version>${version}</version>
-        </dependency>
-
-        <dependency>
             <groupId>com.hemajoo</groupId>
             <artifactId>hemajoo-foundation-data</artifactId>
-            <version>${version.hemajoo.foundation}</version>
         </dependency>
 
     </dependencies>

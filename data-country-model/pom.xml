@@ -13,6 +13,7 @@
     </parent>
 
     <artifactId>data-country-model</artifactId>
+    <packaging>jar</packaging>
     <name>${project.artifactId}</name>
     <description>Provides data model for the countries.</description>
 
@@ -24,9 +25,9 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.hemajoo.commerce</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>data-country-commons</artifactId>
-            <version>${version}</version>
+            <version>${project.version}</version>
         </dependency>
 
     </dependencies>

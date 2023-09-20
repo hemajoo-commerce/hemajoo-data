@@ -11,7 +11,8 @@
     </parent>
 
     <artifactId>data-country-subdivision</artifactId>
-    <name>${artifactId}</name>
+    <packaging>jar</packaging>
+    <name>${project.artifactId}</name>
     <description>Provides subdivision data for the countries.</description>
 
     <properties>
@@ -22,9 +23,9 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.hemajoo.commerce</groupId>
-            <artifactId>data-country-commons</artifactId>
-            <version>${version}</version>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>data-country-persistence</artifactId>
+            <version>${project.version}</version>
         </dependency>
 
     </dependencies>

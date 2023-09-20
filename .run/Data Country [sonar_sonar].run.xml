@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="i18n-apis [sonar:sonar]" type="MavenRunConfiguration" factoryName="Maven">
+  <configuration default="false" name="Data Country [sonar:sonar]" type="MavenRunConfiguration" factoryName="Maven">
     <MavenSettings>
       <option name="myGeneralSettings" />
       <option name="myRunnerSettings" />
@@ -26,7 +26,7 @@
             <list />
           </option>
           <option name="resolveToWorkspace" value="false" />
-          <option name="workingDirPath" value="$PROJECT_DIR$/../i18n-apis/i18n-api-parent" />
+          <option name="workingDirPath" value="$PROJECT_DIR$/../hemajoo-data-country/data-country-parent" />
         </MavenRunnerParameters>
       </option>
     </MavenSettings>

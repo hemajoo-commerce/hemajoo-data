@@ -14,7 +14,7 @@
 
     <artifactId>data-country-coverage</artifactId>
     <packaging>jar</packaging>
-    <name>${artifactId}</name>
+    <name>${project.artifactId}</name>
     <description>Aggregate code coverage reports for the modules of the Hemajoo Commerce Data Country project.</description>
 
     <properties>
