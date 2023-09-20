@@ -5,14 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.hemajoo.commerce</groupId>
-        <artifactId>i18n-api-parent</artifactId>
+        <artifactId>data-country-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../i18n-api-parent/pom.xml</relativePath>
+        <relativePath>../data-country-parent/pom.xml</relativePath>
     </parent>
 
-    <artifactId>i18n-api-fruit</artifactId>
+    <artifactId>data-country-subdivision</artifactId>
     <name>${artifactId}</name>
-    <description>Provides through REST APIs localized information on fruits.</description>
+    <description>Provides subdivision data for the countries.</description>
 
     <properties>
         <maven.deploy.skip>false</maven.deploy.skip>
@@ -23,7 +23,7 @@
 
         <dependency>
             <groupId>com.hemajoo.commerce</groupId>
-            <artifactId>i18n-api-commons</artifactId>
+            <artifactId>data-country-commons</artifactId>
             <version>${version}</version>
         </dependency>
 

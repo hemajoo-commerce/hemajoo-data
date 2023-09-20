@@ -6,20 +6,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.hemajoo.commerce</groupId>
-    <artifactId>i18n-api-parent</artifactId>
+    <artifactId>data-country-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Hemajoo Commerce - I18n REST APIs</name>
-    <description>Build module for the Hemajoo Commerce - I18n REST APIs project.</description>
+    <name>${project.artifactId}</name>
+    <description>Build module for the Hemajoo Data Country project.</description>
 
     <modules>
-        <module>../i18n-api-commons</module>
-        <module>../i18n-api-country</module>
-        <module>../i18n-api-animal</module>
-        <module>../i18n-api-plant</module>
-        <module>../i18n-api-vegetable</module>
-        <module>../i18n-api-fruit</module>
-        <module>../i18n-api-coverage</module>
+        <module>../data-country-commons</module>
+        <module>../data-country-model</module>
+        <module>../data-country-persistence</module>
+        <module>../data-country-general</module>
+        <module>../data-country-demographic</module>
+        <module>../data-country-geographic</module>
+        <module>../data-country-subdivision</module>
+        <module>../data-country-coverage</module>
     </modules>
 
     <developers>

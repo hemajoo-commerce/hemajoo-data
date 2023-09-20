@@ -7,15 +7,15 @@
 
     <parent>
         <groupId>com.hemajoo.commerce</groupId>
-        <artifactId>i18n-api-parent</artifactId>
+        <artifactId>data-country-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../i18n-api-parent/pom.xml</relativePath>
+        <relativePath>../data-country-parent/pom.xml</relativePath>
     </parent>
 
-    <artifactId>i18n-api-coverage</artifactId>
+    <artifactId>data-country-coverage</artifactId>
     <packaging>jar</packaging>
     <name>${artifactId}</name>
-    <description>Aggregate code coverage reports for the modules of the Hemajoo Commerce I18n APIs project.</description>
+    <description>Aggregate code coverage reports for the modules of the Hemajoo Commerce Data Country project.</description>
 
     <properties>
         <maven.deploy.skip>true</maven.deploy.skip>
@@ -25,37 +25,43 @@
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>i18n-api-commons</artifactId>
+            <artifactId>data-country-commons</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>i18n-api-country</artifactId>
+            <artifactId>data-country-model</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>i18n-api-animal</artifactId>
+            <artifactId>data-country-persistence</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>i18n-api-plant</artifactId>
+            <artifactId>data-country-general</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>i18n-api-vegetable</artifactId>
+            <artifactId>data-country-subdivision</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>i18n-api-fruit</artifactId>
+            <artifactId>data-country-demographic</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>data-country-geographic</artifactId>
             <version>${project.version}</version>
         </dependency>
 
